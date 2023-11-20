@@ -27,7 +27,7 @@
       },
       {
         "type": "the_unknown_biome:mig",
-        "weight": 30,
+        "weight": 50,
         "minCount": 4,
         "maxCount": 4
       }
