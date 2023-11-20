@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stair",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "3": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "4": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "6": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "7": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "8": {
+      "item": "the_unknown_biome:maokplank"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_stairs",
+    "count": 4
+  }
+}

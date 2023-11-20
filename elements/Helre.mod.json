@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "helmentrecipe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Titaarmor.helmet"
+    },
+    "name": "helre",
+    "namespace": "mod"
+  }
+}

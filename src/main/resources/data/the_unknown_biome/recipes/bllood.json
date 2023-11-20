@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bloodplate",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "the_unknown_biome:crazyblood"
+    },
+    "1": {
+      "item": "the_unknown_biome:crazyblood"
+    },
+    "2": {
+      "item": "the_unknown_biome:crazyblood"
+    },
+    "3": {
+      "item": "the_unknown_biome:crazyblood"
+    }
+  },
+  "result": {
+    "item": "the_unknown_biome:bloodplate",
+    "count": 4
+  }
+}

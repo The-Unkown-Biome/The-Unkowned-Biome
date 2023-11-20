@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "trapdoor",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "1": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "2": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "3": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "4": {
+      "item": "the_unknown_biome:maokplank"
+    },
+    "5": {
+      "item": "the_unknown_biome:maokplank"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_trapdoor",
+    "count": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bootre",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Titamilk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Titaarmor.boots"
+    },
+    "name": "bootre",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_unknown_biome:block/imported_piskel_6",
+    "up": "the_unknown_biome:block/imported_piskel_6",
+    "north": "the_unknown_biome:block/imported_piskel_6",
+    "east": "the_unknown_biome:block/imported_piskel_6",
+    "south": "the_unknown_biome:block/imported_piskel_6",
+    "west": "the_unknown_biome:block/imported_piskel_6",
+    "particle": "the_unknown_biome:block/imported_piskel_6"
+  },
+  "render_type": "solid"
+}

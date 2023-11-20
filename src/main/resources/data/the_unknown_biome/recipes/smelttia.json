@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "tiacraft",
+  "category": "misc",
+  "experience": 0.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "the_unknown_biome:titamilkore"
+  },
+  "result": "the_unknown_biome:titamilk"
+}

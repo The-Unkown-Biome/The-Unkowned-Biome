@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "the_unknown_biome:ancient_milk_biome",
+  "features": "the_unknown_biome:grassplant",
+  "step": "vegetal_decoration"
+}

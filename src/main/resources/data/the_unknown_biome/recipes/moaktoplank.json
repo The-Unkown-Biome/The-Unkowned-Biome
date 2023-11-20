@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "plank",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "the_unknown_biome:maok_log"
+    }
+  },
+  "result": {
+    "item": "the_unknown_biome:maokplank",
+    "count": 4
+  }
+}

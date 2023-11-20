@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "bloodcooked2",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Bloodplate"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:Cookedcrazyblood"
+    },
+    "name": "bloodcooked_2",
+    "namespace": "mod"
+  }
+}

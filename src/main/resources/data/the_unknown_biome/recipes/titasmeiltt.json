@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "blastingmilk",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "the_unknown_biome:titamilkore"
+  },
+  "result": "the_unknown_biome:titamilk"
+}

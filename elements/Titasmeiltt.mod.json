@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "blastingmilk",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Titamilkore"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Titamilk"
+    },
+    "name": "titasmeiltt",
+    "namespace": "mod"
+  }
+}

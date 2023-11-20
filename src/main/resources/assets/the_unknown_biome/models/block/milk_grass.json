@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_unknown_biome:block/milk_grass",
+    "top": "the_unknown_biome:block/milk_grass_top",
+    "side": "the_unknown_biome:block/milk_grass_front",
+    "overlay": "the_unknown_biome:block/milk_grass_overlay",
+    "particle": "the_unknown_biome:block/milk_grass"
+  },
+  "render_type": "cutout_mipped"
+}

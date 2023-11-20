@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chestre",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "2": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "3": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "4": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "5": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "6": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "7": {
+      "item": "the_unknown_biome:titamilk"
+    },
+    "8": {
+      "item": "the_unknown_biome:titamilk"
+    }
+  },
+  "result": {
+    "item": "the_unknown_biome:titaarmor_chestplate",
+    "count": 1
+  }
+}

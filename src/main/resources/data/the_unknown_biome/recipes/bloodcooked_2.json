@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "bloodcooked2",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "the_unknown_biome:bloodplate"
+  },
+  "result": "the_unknown_biome:cookedcrazyblood"
+}

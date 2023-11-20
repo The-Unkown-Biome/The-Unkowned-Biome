@@ -1,0 +1,42 @@
+{
+  "livingcrazy": {
+    "sounds": [
+      {
+        "name": "the_unknown_biome:liveingh",
+        "stream": false
+      }
+    ]
+  },
+  "hurtcrazy": {
+    "sounds": [
+      {
+        "name": "the_unknown_biome:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "crazydie": {
+    "sounds": [
+      {
+        "name": "the_unknown_biome:die",
+        "stream": false
+      }
+    ]
+  },
+  "equiparmor": {
+    "sounds": [
+      {
+        "name": "the_unknown_biome:equiparmorwrok",
+        "stream": false
+      }
+    ]
+  },
+  "armorrework": {
+    "sounds": [
+      {
+        "name": "the_unknown_biome:equiparmorrework",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_unknown_biome:block/imported_piskel_2",
+    "particle": "the_unknown_biome:block/imported_piskel_2"
+  }
+}

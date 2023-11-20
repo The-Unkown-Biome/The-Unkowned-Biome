@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "campfirebloodcooking",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.5,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:Bloodplate"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:Cookedcrazyblood"
+    },
+    "name": "bloodcooked_3",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "the_unknown_biome:titamilkore",
+  "step": "underground_ores"
+}

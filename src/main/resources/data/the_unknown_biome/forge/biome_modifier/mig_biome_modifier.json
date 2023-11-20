@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_unknown_biome:ancient_milk_biome",
+  "spawners": {
+    "type": "the_unknown_biome:mig",
+    "weight": 30,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
