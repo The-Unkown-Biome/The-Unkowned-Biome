@@ -966,8 +966,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.the_unknown_biome.titaarmor_leggings": "Tita Leggings",
       "item.the_unknown_biome.bloodplate": "Blood Platew",
+      "item.the_unknown_biome.titaarmor_leggings": "Tita Leggings",
       "item.the_unknown_biome.titapickaxe": "Titapickaxe",
       "subtitles.crazydie": "",
       "biome.the_unknown_biome.ancient_milk_biome": "The Ancient Milk Biome",
