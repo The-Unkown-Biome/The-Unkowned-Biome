@@ -35,6 +35,7 @@ import net.mcreator.theunknownbiome.init.TheUnknownBiomeModItems;
 import net.mcreator.theunknownbiome.init.TheUnknownBiomeModFeatures;
 import net.mcreator.theunknownbiome.init.TheUnknownBiomeModEntities;
 import net.mcreator.theunknownbiome.init.TheUnknownBiomeModBlocks;
+import net.mcreator.theunknownbiome.init.TheUnknownBiomeModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,7 +56,7 @@ public class TheUnknownBiomeMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		TheUnknownBiomeModSounds.REGISTRY.register(bus);
 		TheUnknownBiomeModBlocks.REGISTRY.register(bus);
-
+		TheUnknownBiomeModBlockEntities.REGISTRY.register(bus);
 		TheUnknownBiomeModItems.REGISTRY.register(bus);
 		TheUnknownBiomeModEntities.REGISTRY.register(bus);
 

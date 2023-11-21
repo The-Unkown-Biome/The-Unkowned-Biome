@@ -919,6 +919,71 @@
         ]
       },
       "path": "~/Loot Table"
+    },
+    {
+      "name": "MaokSapling",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maok_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_unknown_biome/models/item/maok_sapling.json",
+          "src/main/java/net/mcreator/theunknownbiome/block/MaokSaplingBlock.java",
+          "src/main/resources/assets/the_unknown_biome/blockstates/maok_sapling.json",
+          "src/main/java/net/mcreator/theunknownbiome/block/entity/MaokSaplingBlockEntity.java",
+          "src/main/resources/assets/the_unknown_biome/models/block/maok_sapling.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MaokSaplingitem",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maok_saplingitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theunknownbiome/item/MaokSaplingitemItem.java",
+          "src/main/resources/assets/the_unknown_biome/models/item/maok_saplingitem.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MaokSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maok_sapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theunknownbiome/procedures/MaokSaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -966,8 +1031,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.the_unknown_biome.bloodplate": "Blood Platew",
       "item.the_unknown_biome.titaarmor_leggings": "Tita Leggings",
+      "item.the_unknown_biome.bloodplate": "Blood Platew",
       "item.the_unknown_biome.titapickaxe": "Titapickaxe",
       "subtitles.crazydie": "",
       "biome.the_unknown_biome.ancient_milk_biome": "The Ancient Milk Biome",
@@ -983,8 +1048,10 @@
       "item.the_unknown_biome.crazyblood": "Crazy Blood",
       "subtitles.armorrework": "",
       "item.the_unknown_biome.crazy_spawn_egg": "Crazy Spawn Egg",
+      "item.the_unknown_biome.maok_saplingitem": "Maok Sapling",
       "block.the_unknown_biome.grassplant": "Grassplant",
       "entity.the_unknown_biome.crazy": "Crazy",
+      "block.the_unknown_biome.maok_sapling": "Maok Sapling",
       "item.the_unknown_biome.tita_axe": "Tita Axe",
       "item.the_unknown_biome.tita_shovel": "Tita Shovel",
       "item.the_unknown_biome.cookedcrazyblood": "Cooked Crazy Blood Plate",

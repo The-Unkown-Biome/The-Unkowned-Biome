@@ -2,15 +2,15 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "moak_log_top",
-    "textureTop": "moak_log_top",
-    "textureLeft": "moak_log_face",
-    "textureFront": "moak_log_face",
-    "textureRight": "moak_log_face",
-    "textureBack": "moak_log_face",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 5,
+    "texture": "imported_piskel_20",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -20,8 +20,8 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
-    "disableOffset": false,
+    "transparencyType": "TRANSLUCENT",
+    "disableOffset": true,
     "boundingBoxes": [
       {
         "mx": 0.0,
@@ -33,18 +33,18 @@
         "subtract": false
       }
     ],
-    "name": "Maok Log",
+    "name": "Maok Sapling",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 10.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:MaokSapling"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -54,32 +54,32 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "GRASS"
     },
-    "tickRate": 0,
+    "tickRate": 20,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "QUARTZ",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:MaokSapling"
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "WALKABLE",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -100,7 +100,7 @@
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -117,6 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "MaokSaplingUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

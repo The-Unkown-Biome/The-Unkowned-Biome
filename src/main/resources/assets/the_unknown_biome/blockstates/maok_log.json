@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "the_unknown_biome:block/maok_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "the_unknown_biome:block/maok_log"
+    },
+    "axis=z": {
+      "model": "the_unknown_biome:block/maok_log",
+      "x": 90
     }
   }
 }

@@ -15,6 +15,7 @@ import net.mcreator.theunknownbiome.block.MobbyBlock;
 import net.mcreator.theunknownbiome.block.MilkLeavesBlock;
 import net.mcreator.theunknownbiome.block.MilkGrassBlock;
 import net.mcreator.theunknownbiome.block.MaokplankBlock;
+import net.mcreator.theunknownbiome.block.MaokSaplingBlock;
 import net.mcreator.theunknownbiome.block.MaokLogBlock;
 import net.mcreator.theunknownbiome.block.GrassplantBlock;
 import net.mcreator.theunknownbiome.block.GrassBlock;
@@ -30,4 +31,5 @@ public class TheUnknownBiomeModBlocks {
 	public static final RegistryObject<Block> TITAMILKORE = REGISTRY.register("titamilkore", () -> new TitamilkoreBlock());
 	public static final RegistryObject<Block> MAOKPLANK = REGISTRY.register("maokplank", () -> new MaokplankBlock());
 	public static final RegistryObject<Block> MOBBY = REGISTRY.register("mobby", () -> new MobbyBlock());
+	public static final RegistryObject<Block> MAOK_SAPLING = REGISTRY.register("maok_sapling", () -> new MaokSaplingBlock());
 }

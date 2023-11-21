@@ -20,6 +20,7 @@ import net.mcreator.theunknownbiome.item.TitahoeItem;
 import net.mcreator.theunknownbiome.item.TitaarmorItem;
 import net.mcreator.theunknownbiome.item.TitaShovelItem;
 import net.mcreator.theunknownbiome.item.TitaAxeItem;
+import net.mcreator.theunknownbiome.item.MaokSaplingitemItem;
 import net.mcreator.theunknownbiome.item.CrazybloodItem;
 import net.mcreator.theunknownbiome.item.CookedcrazybloodItem;
 import net.mcreator.theunknownbiome.item.BloodplateItem;
@@ -50,6 +51,8 @@ public class TheUnknownBiomeModItems {
 	public static final RegistryObject<Item> BLOODPLATE = REGISTRY.register("bloodplate", () -> new BloodplateItem());
 	public static final RegistryObject<Item> COOKEDCRAZYBLOOD = REGISTRY.register("cookedcrazyblood", () -> new CookedcrazybloodItem());
 	public static final RegistryObject<Item> MIG_SPAWN_EGG = REGISTRY.register("mig_spawn_egg", () -> new ForgeSpawnEggItem(TheUnknownBiomeModEntities.MIG, -10066330, -6710887, new Item.Properties()));
+	public static final RegistryObject<Item> MAOK_SAPLING = block(TheUnknownBiomeModBlocks.MAOK_SAPLING);
+	public static final RegistryObject<Item> MAOK_SAPLINGITEM = REGISTRY.register("maok_saplingitem", () -> new MaokSaplingitemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

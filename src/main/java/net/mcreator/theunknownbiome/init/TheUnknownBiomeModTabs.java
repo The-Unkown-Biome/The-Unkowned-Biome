@@ -43,14 +43,17 @@ public class TheUnknownBiomeModTabs {
 			tabData.accept(TheUnknownBiomeModItems.TITAMILK.get());
 			tabData.accept(TheUnknownBiomeModBlocks.MOBBY.get().asItem());
 			tabData.accept(TheUnknownBiomeModItems.CRAZYBLOOD.get());
+			tabData.accept(TheUnknownBiomeModItems.MAOK_SAPLINGITEM.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(TheUnknownBiomeModBlocks.MILK_GRASS.get().asItem());
 			tabData.accept(TheUnknownBiomeModBlocks.MAOK_LOG.get().asItem());
+			tabData.accept(TheUnknownBiomeModBlocks.MILK_LEAVES.get().asItem());
 			tabData.accept(TheUnknownBiomeModBlocks.GRASS.get().asItem());
 			tabData.accept(TheUnknownBiomeModBlocks.GRASSPLANT.get().asItem());
 			tabData.accept(TheUnknownBiomeModBlocks.TITAMILKORE.get().asItem());
+			tabData.accept(TheUnknownBiomeModBlocks.MAOK_SAPLING.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
